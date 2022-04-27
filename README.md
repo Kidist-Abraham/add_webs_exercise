@@ -24,7 +24,11 @@ You can find the deployed Application at https://addwebs.3.137.215.113.nip.io/
 
 Grafana dashboard [id 1482](https://grafana.com/grafana/dashboards/14282) is used for a cAdvisor dashboard.
 
-Email will be send on high memory usage of containers. A custom `grafana.ini` file is used for adding smtp server configuration for gmail. 
+Email will be send on high memory usage of containers. A custom `grafana.ini` file is used for adding smtp server configuration for gmail.
+
+
+Deployed Prometheus can be accesed at http://addwebs.3.137.215.113.nip.io:9090
+Deployed Grafana can be accessed at http://addwebs.3.137.215.113.nip.io:3000
 
 
 ### Navigating through the server
