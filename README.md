@@ -2,29 +2,27 @@
 
 ### Docker configuration for PHP app
 
-[/docker-compose.yml](docker-compose.yml) - contains a docker compose configuration for Nginx, PGP, and MySql containers.
+[docker-compose.yml](/docker-compose.yml) - contains a docker compose configuration for Nginx, PGP, and MySql containers.
 
-[/nginx](nginx) - contains a configuration for nginx
-
-[/nginx](nginx) - contains a configuration for nginx
+[nginx](/nginx) - contains a configuration for nginx
 
 You can find the deployed Application at https://addwebs.3.137.215.113.nip.io/
 
 ###### SSL configuration
 
-[https://letsencrypt.org/](Letsencrypt)  is used to configure ssl to the domain. 
+[Letsencrypt](https://letsencrypt.org/)  is used to configure ssl to the domain. 
 
 
 
 ### Montioring
 
-[https://prometheus.io/](Prometheus) is used to scrap metrics for docker containers. 
+[Prometheus](https://prometheus.io/) is used to scrap metrics for docker containers. 
 
-[https://digital.ai/technology/cadvisor] (cAdvisor) is used for exporting the docker container data from our server
+[cAdvisor](https://digital.ai/technology/cadvisor) is used for exporting the docker container data from our server
 
-[https://grafana.com/](Grafana) is used for visualizing and aleritg 
+[Grafana](https://grafana.com/) is used for visualizing and aleritg 
 
-Grafana dashboard [https://grafana.com/grafana/dashboards/14282](id 1482) is used for a cAdvisor dashboard.
+Grafana dashboard [id 1482](https://grafana.com/grafana/dashboards/14282) is used for a cAdvisor dashboard.
 
 Email will be send on high memory usage of containers. A custom `grafana.ini` file is used for adding smtp server configuration for gmail. 
 
